@@ -47,26 +47,34 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button type="button" class="mobile-close-btn"></button>
-          <nav>
-            <ul>
-              <li>
+          <button type="button" class="mobile-close-btn" data-menu-close>
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/form-icons.svg#icon-close-button"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
                 <a href="./index.html" class="mobile-menu-link">Studio</a>
               </li>
-              <li><a href="" class="mobile-menu-link">Portfolio</a></li>
-              <li><a href="" class="mobile-menu-link">Contacts</a></li>
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link">Contacts</a>
+              </li>
             </ul>
           </nav>
-          <address>
-            <ul>
+          <address class="mobile-menu-contacts">
+            <ul class="mob-menu-contacts-list">
               <li class="contact-block-mob">
                 <a href="mailto:info@devstudio.com" class="contact-mob"
                   >info@devstudio.com</a
@@ -79,9 +87,9 @@
               </li>
             </ul>
           </address>
-          <ul class="mob-menu-soc-list soc-footer-list">
-            <li class="mob-menu-soc-item soc-footer-item">
-              <a class="mob-menu-soc-link soc-footer-link" href="">
+          <ul class="mob-menu-soc-list">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="">
                 <svg
                   class="mob-menu-soc-icon soc-footer-icon"
                   width="24"
@@ -91,8 +99,8 @@
                 </svg>
               </a>
             </li>
-            <li class="mob-menu-soc-item soc-footer-item">
-              <a class="mob-menu-soc-link soc-footer-link" href="">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="">
                 <svg
                   class="mob-menu-soc-icon soc-footer-icon"
                   width="24"
@@ -102,8 +110,8 @@
                 </svg>
               </a>
             </li>
-            <li class="mob-menu-soc-item soc-footer-item">
-              <a class="mob-menu-soc-link soc-footer-link" href="">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="">
                 <svg
                   class="mob-menu-soc-icon soc-footer-icon"
                   width="24"
@@ -113,8 +121,8 @@
                 </svg>
               </a>
             </li>
-            <li class="mob-menu-soc-item soc-footer-item">
-              <a class="mob-menu-soc-link soc-footer-link" href="">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="">
                 <svg
                   class="mob-menu-soc-icon soc-footer-icon"
                   width="24"
@@ -636,5 +644,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
