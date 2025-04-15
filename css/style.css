@@ -333,11 +333,21 @@ h3 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/goit-markup-hw-04/images/people-office.jpg);
+    url(../images/hero/hero-bg-mob.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-resolution: 2x), (-webkit-device-pixel-ratio: 2) {
+  .section-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-bg-mob-2x.jpg);
+  }
 }
 
 .page-title {
@@ -1036,6 +1046,21 @@ h3 {
     max-width: 1157px;
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-bg-tab.jpg);
+  }
+
+  @media screen and (min-resolution: 2x), (-webkit-device-pixel-ratio: 2) {
+    .section-title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/hero-bg-tab-2x.jpg);
+    }
   }
 
   .page-title {
@@ -1145,6 +1170,21 @@ h3 {
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-bg-desk.jpg);
+  }
+
+  @media screen and (min-resolution: 2x), (-webkit-device-pixel-ratio: 2) {
+    .section-title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/hero-bg-2x.jpg);
+    }
   }
 
   .page-btn {
