@@ -50,11 +50,9 @@ input {
 }
 
 .container {
-  /* max-width: 1158px; */
   max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
-  /* padding: 0 15px; */
 }
 
 .header-box {
@@ -76,17 +74,7 @@ input {
 .page-navigation,
 .contact-list {
   display: none;
-  /* display: flex;
-  margin-left: auto;
-  gap: 40px; */
 }
-
-/* .contact-list {
-  display: flex;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-} */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -97,8 +85,6 @@ input {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  /* margin-right: 76px;
-    padding: 24px 0; */
   padding: 16px 0;
 }
 
@@ -321,12 +307,9 @@ h3 {
 
 .section-title {
   background-color: rgb(46, 47, 66);
-  /* padding-top: 188px;
-    padding-bottom: 188px; */
   padding-top: 72px;
   padding-bottom: 72px;
 
-  /* max-width: 1440px; */
   max-width: 767px;
   margin: 0 auto;
   background-image: linear-gradient(
@@ -370,7 +353,6 @@ h3 {
   min-height: 56px;
   display: block;
   border: none;
-  /* margin-top: 48px; */
   margin-top: 72px;
   margin-right: auto;
   margin-left: auto;
@@ -404,30 +386,15 @@ h3 {
 }
 
 .benefits-box {
-  /* padding-top: 120px;
-    padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
 
 .box-icon {
-  /* display: flex; */
   display: none;
-  /* border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-    width: 100%;
-    height: 112px;
-    margin-bottom: 8px;
-    justify-content: center;
-    align-items: center; */
 }
 
 .studio-list {
-  /* font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    */
   margin-bottom: 8px;
 }
 
@@ -441,11 +408,11 @@ h3 {
   gap: 72px;
 }
 
-.benefits-item {
-  /* margin-bottom: 72px; */
+/* .benefits-item {
+  margin-bottom: 72px;
 
-  /* flex-basis: calc((100% - 72px) / 4); */
-}
+  flex-basis: calc((100% - 72px) / 4);
+} */
 
 /* .benefits-item:last-child {
     margin-bottom: 0;
@@ -453,8 +420,6 @@ h3 {
 
 .section-team {
   background-color: rgb(244, 244, 253);
-  /* padding-top: 120px;
-    padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -464,9 +429,6 @@ h3 {
 }
 
 .studio {
-  /* font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em; */
   min-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
@@ -475,7 +437,6 @@ h3 {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
   gap: 72px;
   justify-content: center;
 }
@@ -483,7 +444,6 @@ h3 {
 .card {
   background-color: #ffffff;
   align-items: center;
-  /* flex-basis: calc((100% - 72px) / 4); */
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -542,8 +502,6 @@ h3 {
 }
 
 .studio-portfolio {
-  /* padding-top: 120px;
-    padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -552,15 +510,10 @@ h3 {
   display: flex;
   gap: 48px;
   flex-wrap: wrap;
-  /* flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px; */
 }
 
 .portfolio-item {
-  /* width: calc((100% - 48px) / 3); */
   flex-shrink: 0;
-  /* max-width: 360px; */
   max-width: 288px;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -626,7 +579,6 @@ h3 {
 }
 
 .logo-type {
-  /* display: inline-block; */
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
@@ -635,26 +587,14 @@ h3 {
 
 .text-footer {
   color: #f4f4fd;
-  /* max-width: 264px; */
   max-width: 288px;
   margin-bottom: 72px;
   text-align: left;
 }
 
 .page-footer {
-  /* padding-top: 100px;
-    padding-bottom: 100px; */
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-.footer-container {
-  /* display: flex;
-    align-items: baseline; */
-}
-
-.logo-container {
-  /* margin-right: 120px; */
 }
 
 .social-media {
@@ -707,7 +647,6 @@ h3 {
 
 .footer-form {
   display: flex;
-  /* gap: 24px; */
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
@@ -791,15 +730,12 @@ h3 {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  /* min-height: 584px;
-  width: 408px; */
   min-height: 623px;
   width: 288px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* padding: 72px 24px 24px 24px; */
   padding: 72px 16px 24px 16px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
